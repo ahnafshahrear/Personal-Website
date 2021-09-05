@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(120deg, crimson, tomato);
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px;
+    position: relative;
+    height: 500px;
+    box-shadow: 10px 10px 30px black;
+}
+.h2-style1 {
+    font-size: 25px;
+    font-weight: lighter;
+    margin-top: 10px;
+    color: rgb(43, 43, 43);
+}
+.name {
+    font-family: 'Play', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: crimson;
+}
+.about-me {
+    margin-top: 4em;
+    margin-left: 4em;
+}
+.about-me p {
+    font-size: 16px;
+    margin-top: 30px;
+    color: rgb(43, 43, 43);
+    font-weight: normal;
+    line-height: 150%;
+}
+.display-picture {
+    align-self: center;
+}
+.display-picture img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+.button{
+    display: block;
+    width: 145px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, rgb(0, 79, 197), rgb(0, 115, 209));
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+/* -------------------- End of Header Section -------------------- */ 
+.skill {
+    display: flex;
+    place-items: center;
+}
+.filled {
+    color: rgb(255, 196, 0);
+}
+.empty {
+    color: lightgray;
+}
